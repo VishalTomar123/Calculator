@@ -1,0 +1,104 @@
+<html>
+<head>
+<style>
+
+.Abc
+{
+background-color:black;
+height:400px;
+width:250px;
+margin-left:600px;
+margin-top:190px;
+box-shadow:5px 4px 20px 0px; 
+border-radius:10px;
+
+}
+
+.inner
+{
+background-color:yellow;
+height:225px;
+width:205px;
+margin-left:25px;
+margin-top:15px;
+}
+.aa
+{
+
+}
+.inner:hover~.aa
+{
+background-color:red;
+}
+
+.aa
+{
+height:100px;
+width:200px;
+background-color:green;
+}
+.button
+{
+ background-color:brown; 
+ width:35px;
+ height:35px;
+ margin-left:10px;
+ margin-top:5px;
+ color:white;
+ font-weigfht:bold;
+}
+.xyz
+{
+ background-color:red; 
+ width:35px;
+ height:35px;
+ margin-left:10px;
+ margin-top:5px;
+ color:white;
+ font-weigfht:bold;
+}
+.xy
+{
+ background-color:green; 
+ width:85px;
+ height:35px;
+ margin-left:10px;
+ margin-top:5px;
+ color:white;
+ font-weigfht:bold;
+}
+
+</style>
+</head>
+<body>
+ 
+<form  name="get">
+<div class="Abc">
+<p style="color: white; position:relative; top:25px;left:10px; font-size:2em"> OM Calculater</p> <br>
+<input style=" background-color:lightgray; width:230px;height:40px; margin-left:10px; color:Black;font-weigfht:bold;" type="test" name="click" placeholder="0">
+<div class="inner" >
+<input class="button" type="button" onclick="get.click.value+='1'" value="1">
+<input class="button" type="button" onclick="get.click.value+='2'" value="2">
+<input class="button" type="button" onclick="get.click.value+='3'" value="3">
+<input class="xyz" type="button" onclick="get.click.value=''" value="<=">
+<input class="button" type="button" onclick="get.click.value+='4'" value="4">
+<input class="button" type="button" onclick="get.click.value+='5'" value="5">
+<input class="button" type="button" onclick="get.click.value+='6'" value="6">
+<input class="button" type="button" onclick="get.click.value+='+'" value="+">
+<input class="button" type="button" onclick="get.click.value+='7'" value="7">
+<input class="button" type="button" onclick="get.click.value+='8'" value="8">
+<input class="button" type="button" onclick="get.click.value+='9'" value="9">
+<input class="button" type="button" onclick="get.click.value+='-'" value="-">
+<input class="button" type="button" onclick="get.click.value+='.'" value=".">
+<input class="button" type="button" onclick="get.click.value+='0'" value="0">
+<input class="button" type="button" onclick="get.click.value+='00'" value="00">
+<input class="button" type="button" onclick="get.click.value+='*'" value="*">
+<input class="xyz" type="button" onclick="get.click.value=' '" value="C">
+<input class="xy" type="button" onclick="get.click.value=eval(get.click.value)" value="=">
+<input class="button" type="button" onclick="get.click.value+='/'" value="/">
+
+</div>
+</div>
+</form>
+</body>
+</html>
